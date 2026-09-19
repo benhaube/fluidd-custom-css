@@ -1,0 +1,127 @@
+:root {
+    --v-btncolor-base: #212830;
+}
+.theme--dark.v-application {
+    color:#fffc;
+    background:#010409;
+}
+.theme--dark.v-app-bar.v-toolbar.v-sheet {
+    background-color:#151B23 !important;
+}
+.theme--dark.v-toolbar.v-sheet {
+    background-color:#010409;
+}
+.theme--dark.v-sheet {
+    background-color:#0D1117;
+    border-color:#0D1117;
+}
+.theme--dark.v-card {
+    color: #fffc;
+    background-color: #0D1117;
+}
+.theme--dark.v-application .card-heading {
+    background-color: #151b23 !important;
+    border-color: #151b23 !important;
+}
+.theme--dark.v-expansion-panels .v-expansion-panel {
+    color:#fffc;
+    background-color:#0D1117;
+}
+.theme--dark.v-navigation-drawer {
+    background-color:#151b23 !important;
+}
+.theme--dark.v-navigation-drawer .v-list:not(.v-select-list) {
+  background-color:#151B23 !important;
+}
+.theme--dark .toolbar-logo[data-v-7e74cac4] {
+    background-color: #151B23;
+}
+.theme--dark.v-data-table {
+    background-color:#0D1117;
+}
+.theme--dark.v-tabs>.v-tabs-bar {
+    background-color:#0D1117;
+}
+.theme--dark.v-tabs-items {
+    background-color: #0D1117;
+}
+.file-system .theme--dark.v-data-table tr > td.actions div {
+    background: #0D1117;
+}
+.file-system .theme--dark.v-data-table tr > td.actions div::before {
+    background: linear-gradient(90deg,#35353900 0%,#0D1117 100%);
+}
+.v-overlay__scrim {
+    background-color: #181f2b !important;
+    border-color: #181f2b !important;
+}
+.theme--dark.bulk-drag {
+    background-color:#151b23
+}
+.theme--dark.v-data-table.v-data-table--fixed-header thead th {
+    background: #0D1117;
+}
+.theme--dark.v-small-dialog__menu-content,
+.theme--dark.v-small-dialog__actions {
+    background:#0D1117;
+}
+.theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr.active {
+    background:#151b23;
+}
+.theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+    background:#151b23;
+}
+.theme--dark.v-data-table tbody tr.v-data-table__selected {
+    background: #010409;
+}
+.theme--dark.v-chip:not(.v-chip--active) {
+    background: #394b65;
+}
+
+/* ~~~ VSCode Editor Theme ~~~ */
+
+.monaco-editor, .monaco-diff-editor, .monaco-component {
+    --vscode-editor-background: #0D1117 !important;
+    --vscode-editorInfo-background: #0D1117 !important;
+    --vscode-editor-lineHighlightBackground: #212830 !important;
+    --vscode-editor-inactiveLineHighlightBackground: #212830 !important;
+    --vscode-editorGutter-background: #010409 !important;
+    --vscode-editorStickyScroll-background: #0D1117 !important;
+    --vscode-editorStickyScrollGutter-background: #010409 !important;
+    --vscode-editorStickyScrollHover-background: #151b23 !important;
+    --vscode-peekViewEditorStickyScrollGutter-background: #010409 !important;
+    --vscode-editorWidget-background: #010409 !important;
+    --vscode-editorSuggestWidget-background: #010409 !important;
+    --vscode-editorHoverWidget-statusBarBackground: #212830 !important;
+    --vscode-editorHoverWidget-background: #010409 !important;
+    --vscode-editorMarkerNavigation-background: #010409 !important;
+    --vscode-editor-selectionBackground: #212830 !important;
+    --vscode-editor-inactiveSelectionBackground: #212830 !important;
+    --vscode-editor-findMatchBackground: #212830 !important;
+    --vscode-editorGhostText-background: #010409 !important;
+    --vscode-peekViewTitle-background: #010409 !important;
+    --vscode-peekViewResult-background: #010409 !important;
+    --vscode-scrollbar-background: #010409 !important;
+    --vscode-scrollbarSlider-background: #0D1117 !important;
+    --vscode-scrollbarSlider-hoverBackground: #151b23 !important;
+    --vscode-scrollbarSlider-activeBackground: #212830 !important;
+    --vscode-minimap-background: #010409 !important;
+    --vscode-badge-background: #212830 !important;
+    --vscode-dropdown-background: #010409 !important;
+    --vscode-dropdown-border: #010409 !important;
+    --vscode-quickInput-background: #010409 !important;
+    --vscode-pickerGroup-border: #151b23 !important;
+    --vscode-quickInputList-focusBackground: #212830 !important;
+    --vscode-input-background: #151b23 !important;
+    --vscode-list-hoverBackground: #151b23 !important;
+    --vscode-menu-background: #010409 !important;
+    --vscode-menu-selectionBackground: #212830 !important;
+    --vscode-progressBar-background: #212830 !important;
+    --vscode-sideBar-background: #010409 !important;
+}
+.monaco-editor .view-overlays .current-line {
+    background-color: var(--vscode-editor-lineHighlightBackground) !important;
+}
+.monaco-editor .margin {
+    background-color:var(--vscode-editorGutter-background) !important
+}
