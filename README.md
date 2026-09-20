@@ -22,7 +22,10 @@ cd fluidd-custom-css/
 
 ## Install & Activate
 
-To activate the theme you need to create the directory, `.fluidd-theme`, in your printer's configuration directory, then add the theme file, `custom.css`. After that you can refresh and clear cache _(`Ctrl+F5`)_, and Fluidd will detect the `custom.css` file and apply the changes automatically. On my **Creality K1C** the configuration directory is located at `/usr/data/printer_data/config`, but check your own printer because it may be different. 
+To activate the theme you need to create the directory, `.fluidd-theme`, in your printer's configuration directory, then add the theme file, `custom.css`. After that you can refresh and clear cache _(`Ctrl+F5`)_, and Fluidd will detect the `custom.css` file and apply the changes automatically. 
+
+> [!tip]
+> On my **Creality K1C** the configuration directory is located at `/usr/data/printer_data/config`, but check the documentation for your own printer because it may be different. 
 
 ### Method 1 _(SSH)_
 
