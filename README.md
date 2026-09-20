@@ -1,5 +1,5 @@
 <p align=center>
-<img src="assets/logo.webp" alt="Fluidd and CSS logos edited into a project logo." />
+<img src="assets/logo.webp" alt="Fluidd and CSS logos edited into a project logo." width="300"/>
 </p>
 <p>
     <h1 align=center>Fluidd Custom CSS</h1>
