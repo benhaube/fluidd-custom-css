@@ -13,5 +13,35 @@ Unlike the community theme presets, these themes go beyond changing the accent c
 
 ``` bash
 git clone https://github.com/benhaube/fluidd-custom-css.git
+cd fluidd-custom-css/
 ```
 
+## Install & Activate
+
+To activate the theme you need to create the directory, `.fluidd-theme`, in your printer's configuration directory, then add the theme file, `custom.css`. After that you can refresh and clear cache _(`Ctrl+F5`)_, and Fluidd will detect the `custom.css` file and apply the changes automatically. On my **Creality K1C** the configuration directory is located at `/usr/data/printer_data/config`, but check your own printer because it may be different. 
+
+### Method 1 _(SSH)_
+
+1. Gain SSH access to your 3D-printer.
+2. Create the `.fluidd-theme` directory: 
+
+    ``` bash
+    mkdir -p /usr/data/printer-data/config/.fluidd-theme
+    ```
+
+3. Back on your computer's terminal, use the `scp` command to copy the `custom.css` file onto your 3D-Printer:
+   
+    ``` bash
+    scp theme_name/custom.css root@<printer-ip>:/usr/data/printer-data/config/.fluidd-theme
+    ```
+
+4. Refresh your browser and clear cache with `Ctrl+F5`.
+
+### Method 2 _(Fluidd UI)_
+
+1. Log into the Fluidd web-UI in your browser.
+2. Navigate to the **Configuration** tab.
+3. Click the **+** icon at the top of the file browser, then click **Add Directory**. 
+4. Name the new directory `.fluidd-theme`. 
+5. Enter the new directory, then drag & drop the file `custom.css` into the file manager to upload it to the printer. 
+6. Refresh your browser and clear cache with `Ctrl+F5`.
