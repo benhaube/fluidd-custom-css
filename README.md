@@ -41,7 +41,7 @@ To activate the theme you need to create the directory, `.fluidd-theme`, in your
 
 1. Log into the Fluidd web-UI in your browser.
 2. Navigate to the **Configuration** tab.
-3. Click the **+** icon at the top of the file browser, then click **Add Directory**. 
+3. Click the **`+`** icon at the top of the file browser, then click **Add Directory**. 
 4. Name the new directory `.fluidd-theme`. 
 5. Enter the new directory, then drag & drop the file `custom.css` into the file manager to upload it to the printer. 
 6. Refresh your browser and clear cache with `Ctrl+F5`.
