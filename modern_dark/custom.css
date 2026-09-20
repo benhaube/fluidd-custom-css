@@ -6,10 +6,10 @@
     background:#010409;
 }
 .theme--dark.v-app-bar.v-toolbar.v-sheet {
-    background-color:#151B23 !important;
+    background-color:#12171e !important;
 }
 .theme--dark.v-toolbar.v-sheet {
-    background-color:#010409;
+    background-color:#12171e;
 }
 .theme--dark.v-sheet {
     background-color:#0D1117;
@@ -34,7 +34,7 @@
   background-color:#151B23 !important;
 }
 .theme--dark .toolbar-logo[data-v-7e74cac4] {
-    background-color: #151B23;
+    background-color: #12171e;
 }
 .theme--dark.v-data-table {
     background-color:#0D1117;
@@ -72,10 +72,10 @@
     background:#151b23;
 }
 .theme--dark.v-data-table tbody tr.v-data-table__selected {
-    background: #010409;
+    background: #12171e;
 }
 .theme--dark.v-chip:not(.v-chip--active) {
-    background: #394b65;
+    background: #121c28;
 }
 
 /* ~~~ VSCode Editor Theme ~~~ */
