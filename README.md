@@ -55,5 +55,5 @@ To activate the theme you need to create the directory, `.fluidd-theme`, in your
 
 ## Known Issues
 
-- The code editor keeps the dark theme when using the light theme.
+- ~~The code editor keeps the dark theme when using the light theme.~~ FIXED
 - The code lens and mini-map background keeps the background color of the regular Fluidd dark theme. _(If you know how to fix this let me know. I have not been able to find the correct properties/rules.)_
