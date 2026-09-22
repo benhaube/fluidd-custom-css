@@ -80,7 +80,8 @@
 
 /* ~~~ VSCode Editor Theme ~~~ */
 
-.monaco-editor, .monaco-diff-editor, .monaco-component {
+.monaco-editor.vs-dark, .monaco-diff-editor.vs-dark, .monaco-component.vs-dark,
+.monaco-editor.hc-black, .monaco-diff-editor.hc-black, .monaco-component.hc-black {
     --vscode-editor-background: #0D1117 !important;
     --vscode-editorInfo-background: #0D1117 !important;
     --vscode-editor-lineHighlightBackground: #212830 !important;
@@ -119,9 +120,11 @@
     --vscode-progressBar-background: #212830 !important;
     --vscode-sideBar-background: #010409 !important;
 }
-.monaco-editor .view-overlays .current-line {
+.monaco-editor.vs-dark .view-overlays .current-line,
+.monaco-editor.hc-black .view-overlays .current-line {
     background-color: var(--vscode-editor-lineHighlightBackground) !important;
 }
-.monaco-editor .margin {
+.monaco-editor.vs-dark .margin,
+.monaco-editor.hc-black .margin {
     background-color:var(--vscode-editorGutter-background) !important
 }
